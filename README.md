@@ -61,15 +61,13 @@ make
 
 ### Пример работы
 
+\`\`\`
 [14:30:22] === ECHO TERMINAL v1.0 ===
-
 [14:30:22] System initialized successfully.
-
 [14:30:22] Type your thoughts and press Enter to save.
-
 [14:30:45] > Сегодня изучаю Qt Framework
-
 [14:30:45] Echo: Thought recorded.
+\`\`\`
 
 ## Кастомизация
 
@@ -82,15 +80,17 @@ make
 
 ## Архитектура проекта
 
+\`\`\`
 EchoTerminal/
-├── CMakeLists.txt # Конфигурация сборки
-├── main.cpp # Точка входа
-├── echoterminalwindow.h # Заголовок основного окна
-├── echoterminalwindow.cpp # Логика приложения
-├── echoterminalwindow.ui # Интерфейс (Qt Designer)
-├── style.qss # Стили (QSS)
-├── resources.qrc # Ресурсы Qt
-└── README.md # Документация
+├── CMakeLists.txt          # Конфигурация сборки
+├── main.cpp                # Точка входа
+├── echoterminalwindow.h    # Заголовок основного окна
+├── echoterminalwindow.cpp  # Логика приложения
+├── echoterminalwindow.ui   # Интерфейс (Qt Designer)
+├── style.qss               # Стили (QSS)
+├── resources.qrc           # Ресурсы Qt
+└── README.md               # Документация
+\`\`\`
 
 
 ## Технологии
