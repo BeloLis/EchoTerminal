@@ -1,0 +1,61 @@
+# Qt Creator
+*.user
+*.creator
+*.includes
+*.tags
+*.qtc_session
+*.qbs.user
+*.qbs.user.*
+
+# Build directories
+build/
+build-*/
+cmake-build-*/
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.map
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Qt
+*.moc
+*.qrc.cpp
+*.ui.h
+rcc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# History and logs
+*.log
+*.history
